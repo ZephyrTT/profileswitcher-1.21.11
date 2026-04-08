@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.profileswitcher.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AppleSkinHudMixin",
+    "XaerosMinimapMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

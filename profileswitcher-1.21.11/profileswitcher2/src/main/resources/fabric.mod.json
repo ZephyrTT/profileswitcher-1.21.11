@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "profileswitcher",
+  "version": "${version}",
+  "name": "Profile Switcher",
+  "description": "Toggle PvP/Vanilla mode with a keybind. Hides AppleSkin, Xaero's Minimap, and adjusts graphics.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.profileswitcher.ProfileSwitcherClient"
+    ]
+  },
+  "mixins": [
+    "profileswitcher.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11"
+  },
+  "suggests": {
+    "appleskin": "*",
+    "xaeros_minimap": "*"
+  }
+}
